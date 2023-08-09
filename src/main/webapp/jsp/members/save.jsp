@@ -1,5 +1,5 @@
-<%@ page import="hello.servlet.domain.member.MemberRepository" %>
-<%@ page import="hello.servlet.domain.member.Member" %>
+<%@ page import="hello.servletPrac.domain.member.MemberRepository" %>
+<%@ page import="hello.servletPrac.domain.member.Member" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%
 
@@ -25,6 +25,6 @@
             <li>username=<%=member.getUsername()%></li>
             <li>age=<%=member.getAge()%></li>
         </ul>
-    <a href="/index.html">메인</a>
+    <a href="/index2.html">메인</a>
     </body>
 </html>
